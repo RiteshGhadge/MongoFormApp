@@ -1,0 +1,46 @@
+
+---
+
+## 🔧 How to Run Locally
+
+1. Clone the repo  
+   `git clone https://github.com/RiteshGhadge/MongoFormApp.git`
+
+2. Navigate into the project  
+   `cd MongoFormApp`
+
+3. Install dependencies  
+   `npm install`
+
+4. Start MongoDB locally  
+   Make sure MongoDB is running on `mongodb://localhost:27017/mongopractice`
+
+5. Run the app  
+   `node app.js`  
+   or if you use **nodemon**:  
+   `npx nodemon app.js`
+
+6. Open in browser  
+   Visit `http://localhost:3000`
+
+---
+
+## 🙌 Author
+
+**Ritesh Ghadge**  
+[GitHub](https://github.com/RiteshGhadge)
+
+---
+
+## 📄 License
+MIT License
+
+Copyright (c) 2025 Ritesh Ghadge
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction...
+
+[Shortened for display — I’ll give you the full license file below if you like.]
+
+This project is open-source and available under the [MIT License](LICENSE).
