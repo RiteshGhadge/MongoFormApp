@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mongo Form</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-green-50 min-h-screen flex flex-col items-center justify-center">
+    <div class="w-full max-w-md bg-white rounded-xl shadow-lg p-8 mt-10">
+        <div class="mb-6 flex justify-between items-center">
+            <h2 class="text-3xl font-bold text-blue-800">Fill the Form</h2>
+            <a href="/read" class="bg-blue-100 text-blue-700 px-4 py-2 rounded-lg font-semibold shadow hover:bg-blue-200 transition text-sm">Go to Read</a>
+        </div>
+        <form action="/create" method="post" class="flex flex-col gap-5">
+            <input 
+                type="text" 
+                name="name" 
+                placeholder="Enter name"
+                required
+                class="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400 transition"
+            />
+            <input 
+                type="email" 
+                name="email" 
+                placeholder="Enter email"
+                required
+                class="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400 transition"
+            />
+            <input 
+                type="text" 
+                name="url" 
+                placeholder="Enter URL"
+                required
+                class="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400 transition"
+            />
+            <input 
+                type="submit" 
+                value="Create User"
+                class="bg-gradient-to-r from-blue-600 to-green-500 text-white py-2 rounded-lg font-semibold shadow hover:from-blue-700 hover:to-green-600 transition cursor-pointer"
+            />
+        </form>
+    </div>
+</body>
+</html>
