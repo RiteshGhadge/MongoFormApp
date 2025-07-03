@@ -1,5 +1,5 @@
 const mongoose= require('mongoose');
-mongoose.connect('mongodb://localhost:27017/mongopractice');
+mongoose.connect('mongodb+srv://riteshghadge205:3HO8iAIixO7dOUQ8@cluster1.jn6jf2z.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1');
 
 const userSchema=mongoose.Schema({
     name:String,
