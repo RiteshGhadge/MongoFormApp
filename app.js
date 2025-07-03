@@ -17,7 +17,7 @@ app.get('/',(req,res)=>{
 app.get('/read',async (req,res)=>{
    
     let users=await usermodel.find();
-    res.render("read",{users:users});
+    res.render("read",{users:users}); 
 })
 
 app.post('/create', async (req,res)=>{
